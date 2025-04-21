@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from "react-router-dom"
 import { useTypewriter } from 'react-simple-typewriter'
+import { BsGithub } from "react-icons/bs"
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
 const Home = () => {
     const [text] = useTypewriter({
@@ -31,8 +32,12 @@ const Home = () => {
                             <FaFacebook className='social-icons'/></NavLink>
                             </div>
                             <div>
-                            <NavLink to = "https://www.linkedin.com/in/zulqarnain-chohan-98a563269/">
+                            <NavLink target='_' to = "https://www.linkedin.com/in/zulqarnain-chohan/">
                             <FaLinkedin className='social-icons'/></NavLink>
+                            </div>
+                            <div>
+                            <NavLink target='_' to = "https://github.com/Zulqarnain32">
+                            <BsGithub  className='social-icons'/></NavLink>
                             </div>
                             <div>
                             <NavLink to = "https://twitter.com/ZulqarnainChoh5">

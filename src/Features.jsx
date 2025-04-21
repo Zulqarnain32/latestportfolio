@@ -17,9 +17,8 @@ const Features = () => {
                <span className="">
                 <FaCode className='features-icon'/> 
                 <div className="box-title">
-                    <h4 className='box-heading'>Frontend Development</h4>
-                     <p>Creative and versatile Frontend Web Developer proficient in building visually stunning and user-friendly websites.
-</p>
+                    <h4 className='box-heading'>MERN Development</h4>
+                   <p>I am a passionate MERN Stack developer skilled in building dynamic, full-stack web applications using modern technologies</p>
                 </div>   
             </span>
             </div>
@@ -28,9 +27,11 @@ const Features = () => {
             <div className="web-box">
                 <FaLaptop className='features-icon'/>
                 <div className="box-title">
-                    <h4 className='box-heading'> Web Development</h4>
-                     <p>Innovative problem-solver in web development, I thrive on tackling complex challenges and transforming ideas into robust digital solutions.</p>
+                
+                    <h4 className='box-heading'>Responsive Design</h4>
+                <p>I specialize in responsive design, creating seamless, user-friendly websites that adapt perfectly to all screen sizes</p>
                 </div>
+
             </div>
            </div>
            <div className="col-md-4"> 

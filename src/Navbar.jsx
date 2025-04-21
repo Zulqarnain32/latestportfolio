@@ -1,5 +1,11 @@
 import React,{ useEffect, useState } from 'react'
-
+import Home from './Home';
+import Features from './Features';
+import Project from './Project';
+import Buttons from './Buttons';
+import Contact from './Contact';
+import Footer from './Footer';
+import ScrolToTopComponent from './ScrolToTop';
 // import { Link, NavLink } from "react-router-dom"
 import {  GiHamburgerMenu,GiCrossedBones } from "react-icons/gi"
 import { Link } from "react-scroll"
@@ -31,13 +37,17 @@ const Navbar = () => {
   
   }, []);
 
-
+const handleNav = () => {
+  if(showNavbar){
+    setShowNavbar(false)
+  }
+}
 
 
 
 
   return (
-    <>
+    <div className='greatest' onClick={handleNav}>
        <div className="container-wrapper ">
        <div className='mynavbar '>
          <input type="checkbox" id='check' className='mycheck'/>
@@ -75,8 +85,16 @@ const Navbar = () => {
        </div>
        {/* navbar ens here */}
        <div id="indicator"></div>
+       <ScrolToTopComponent/>
+      <Home/>
+      <Features/>
+      <Project/>
+      <Buttons/>
+      <Contact/>
+      <Footer/>
 
-    </>
+
+    </div>
   )
 }
 
