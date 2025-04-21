@@ -5,12 +5,12 @@ import { BsGithub } from "react-icons/bs"
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
 const Home = () => {
     const [text] = useTypewriter({
-        words: ['Web Developer', 'Web Designer', 'Frontend Developer', 'React Developer'],
+        words: ['MERN  Developer', 'Full Stack Developer', 'Frontend Developer'],
         loop: 0,
         cursorStyle:"-",
         cursorColor:"red",
-        typeSpeed:70,
-        deleteSpeed:50,
+        typeSpeed:60,
+        deleteSpeed:20,
         delaySpeed:1000,
         
       })
