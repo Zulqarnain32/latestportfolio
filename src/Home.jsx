@@ -22,7 +22,7 @@ const Home = () => {
                 <div className="row mt-5 land">
                     <div className="col-md-6 col-12 mx-auto  order-2 order-md-1">
                        <div className="left">
-                       <h4>This is me is</h4>
+                       <h4>This is me </h4>
                         <h2 className='title'>I am a <span className='dynamic-text'>{text}</span></h2>
                         <p className='about-text mb-4'> Dedicated web developer committed to delivering pixel-perfect designs and clean, efficient code.I bring creativity and technical prowess to every project, ensuring exceptional outcomes. Let's elevate your online presence together</p>
                         <h4 className='mt-5 find'>Find me in</h4>
