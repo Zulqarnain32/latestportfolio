@@ -4,6 +4,7 @@ import * as Yup from 'yup';
 import { FormspreeProvider, useForm } from '@formspree/react';
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa"
 import { NavLink } from "react-router-dom"
+import { BsGithub } from 'react-icons/bs';
 
 
 const Contact = () => {
@@ -64,7 +65,7 @@ const Contact = () => {
                             <FaFacebook className='social-icons'/></NavLink>
                             </div>
                             <div className='redi'>
-                            <NavLink to = "https://www.linkedin.com/in/zulqarnain-chohan-98a563269/">
+                            <NavLink target='_' to = "https://www.linkedin.com/in/zulqarnain-chohan/">
                             <FaLinkedin className='social-icons'/></NavLink>
                             </div>
                            
@@ -72,6 +73,10 @@ const Contact = () => {
                             <NavLink to = "https://www.instagram.com/zulqarnainchohan5/">
                             <FaInstagram className='social-icons'/></NavLink>
                             </div>  
+                            <div className='redi'>
+                            <NavLink target='_' to = "https://github.com/Zulqarnain32">
+                            <BsGithub  className='social-icons'/></NavLink>
+                            </div>
                           </div>
                        
                </div>

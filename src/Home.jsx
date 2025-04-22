@@ -1,15 +1,16 @@
 import React from 'react'
 import { NavLink } from "react-router-dom"
 import { useTypewriter } from 'react-simple-typewriter'
+import { BsGithub } from "react-icons/bs"
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
 const Home = () => {
     const [text] = useTypewriter({
-        words: ['Web Developer', 'Web Designer', 'Frontend Developer', 'React Developer'],
+        words: ['MERN  Developer', 'Full Stack Developer', 'Frontend Developer'],
         loop: 0,
         cursorStyle:"-",
         cursorColor:"red",
-        typeSpeed:70,
-        deleteSpeed:50,
+        typeSpeed:60,
+        deleteSpeed:20,
         delaySpeed:1000,
         
       })
@@ -21,7 +22,7 @@ const Home = () => {
                 <div className="row mt-5 land">
                     <div className="col-md-6 col-12 mx-auto  order-2 order-md-1">
                        <div className="left">
-                       <h4>This is me</h4>
+                       <h4>This is me is</h4>
                         <h2 className='title'>I am a <span className='dynamic-text'>{text}</span></h2>
                         <p className='about-text mb-4'> Dedicated web developer committed to delivering pixel-perfect designs and clean, efficient code.I bring creativity and technical prowess to every project, ensuring exceptional outcomes. Let's elevate your online presence together</p>
                         <h4 className='mt-5 find'>Find me in</h4>
@@ -31,8 +32,12 @@ const Home = () => {
                             <FaFacebook className='social-icons'/></NavLink>
                             </div>
                             <div>
-                            <NavLink to = "https://www.linkedin.com/in/zulqarnain-chohan-98a563269/">
+                            <NavLink target='_' to = "https://www.linkedin.com/in/zulqarnain-chohan/">
                             <FaLinkedin className='social-icons'/></NavLink>
+                            </div>
+                            <div>
+                            <NavLink target='_' to = "https://github.com/Zulqarnain32">
+                            <BsGithub  className='social-icons'/></NavLink>
                             </div>
                             <div>
                             <NavLink to = "https://twitter.com/ZulqarnainChoh5">

@@ -12,16 +12,9 @@ import ScrolToTopComponent from './ScrolToTop';
 
 const App = () => {
   return (
-    <>
+    <div id='greatest'>
       <Navbar/>
-      <ScrolToTopComponent/>
-      <Home/>
-      <Features/>
-      <Project/>
-      <Buttons/>
-      <Contact/>
-      <Footer/>
-    </>
+    </div>
     
   )
 }
